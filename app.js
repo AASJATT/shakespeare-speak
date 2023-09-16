@@ -12,8 +12,8 @@ function clickHandler(){
     txtInput.value;
     fetch(getTranslationURL(txtInput.value))
     .then(response => response.json())
-    .then(json => console.log(json.contents.translated;))
+    .then(json=> outputDiv.innerText=json.contents.translated)
 
-    console.log("output",outputDiv.innerText="ajajaja "+ txtInput.value)
+    
 }
 btnTranslate.addEventListener("click", clickHandler)

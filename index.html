@@ -5,28 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shakespeare speak</title>
     <style>
+        h1{
+            text-align: center;
+            background-color:#a5b4fc ;
+            padding: 2rem ;
+            display:block;
+            font-style: oblique;
+            
+        }
         textarea{
-            height:10vh;
+            height:30vh;
             width:80%;
             display:block;
-            padding:1rem;
-            margin:1rem;
+            padding: 1rem 2rem;
+            margin:1rem 5rem;
+        }
+
+        button{
+            margin:1rem 5rem;
+            padding:1rem 2rem;
+            background-color: #a5b4fc;
+            border:none;
+            font-style:oblique;
+            font-size: large;
         }
         #output{
             border: 1px solid black;
             height:10vh;
             width:80%;
-            padding:1rem;
-            margin:1rem;
+            padding:1rem 2rem;
+            margin:1rem 5rem;
+            display:block;
         }
+        footer{
+            text-align: center;
+            background-color: #a5b4fc;
+            padding-bottom: 3rem;
+            font-style: oblique;
+            padding-top: 1ren;
+            
+            
+        }
+
     </style>
 </head>
 <body>
-    <textarea id="txt-input" placeholder="write something"></textarea>
+    <h1>Shakespeare speak</h1>
+    <textarea id="txt-input" placeholder="Put your message here in english to convert to shakespeare language"></textarea>
     
-    <button id="btn-translate">Translate</button>
-    <div>Output will show here 👇</div>
+    <button id="btn-translate">Translate to shakespeare</button>
+    <div style="font-size: larger;font-style: oblique; margin:1rem 5rem;">Output will show here 👇</div>
     <div id="output"></div>
+    <footer>
+        <h3>about</h3>
+        <p>Are you a fan of Shakespeare? Did you know it is referred to as Early Modern English. Use the translator to convert your text from English to shakespeare speak. </p>
+    </footer>
   <script src="app.js" type="text/javascript"></script>  
 </body>
 </html>
