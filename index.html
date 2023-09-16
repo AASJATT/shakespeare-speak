@@ -5,44 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shakespeare speak</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
         h1{
+            font-family: 'Mooli', sans-serif; ;
             text-align: center;
             background-color:#a5b4fc ;
-            padding: 2rem ;
-            display:block;
+            padding: 3rem 2rem;
+            margin:auto;
             font-style: oblique;
             
         }
         textarea{
             height:30vh;
-            width:80%;
+            width:90%;
             display:block;
-            padding: 1rem 2rem;
-            margin:1rem 5rem;
+            margin:1rem;
         }
 
         button{
-            margin:1rem 5rem;
-            padding:1rem 2rem;
+            margin:1rem;
+            padding:1rem;
             background-color: #a5b4fc;
             border:none;
             font-style:oblique;
-            font-size: large;
+            font-size: larger;
+            font-family:'Mooli', sans-serif;
         }
         #output{
             border: 1px solid black;
-            height:10vh;
-            width:80%;
-            padding:1rem 2rem;
-            margin:1rem 5rem;
+            height:15vh;
+            width:90%;
+            margin:1rem;
             display:block;
         }
         footer{
+            font-family:'Mooli', sans-serif;
             text-align: center;
             background-color: #a5b4fc;
             padding-bottom: 3rem;
             font-style: oblique;
-            padding-top: 1ren;
+            padding-bottom: 2rem;
+            margin:1rem;
+            display: block;
             
             
         }
@@ -54,7 +58,7 @@
     <textarea id="txt-input" placeholder="Put your message here in english to convert to shakespeare language"></textarea>
     
     <button id="btn-translate">Translate to shakespeare</button>
-    <div style="font-size: larger;font-style: oblique; margin:1rem 5rem;">Output will show here 👇</div>
+    <div style="font-size: larger;font-style: oblique; margin:1rem;">Output will show here 👇</div>
     <div id="output"></div>
     <footer>
         <h3>about</h3>
